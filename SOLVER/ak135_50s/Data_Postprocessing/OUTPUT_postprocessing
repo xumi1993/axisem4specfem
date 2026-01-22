@@ -1,0 +1,181 @@
+    Reading inparam_basic...    Reading param_post_processing... Simulations:            1 MZZ
+   source type:monopole   mrr       
+   source time function:gauss_0
+   simulation  type:moment          
+   magnitude:   1.00000002E+20
+   receivers:          25
+   source period:   50.0000000    
+   time steps:        2212
+   rotate recs?cyl
+   shift factor of stf:   78.0948257    
+   shift factor in samples (dt, dtseis, dtstrain):         234         234          13
+ 
+ Simulations:            2 MXX_P_MYY
+   source type:monopole   mtt_p_mpp 
+   source time function:gauss_0
+   simulation  type:moment          
+   magnitude:   1.00000002E+20
+   receivers:          25
+   source period:   50.0000000    
+   time steps:        2212
+   rotate recs?cyl
+   shift factor of stf:   78.0948257    
+   shift factor in samples (dt, dtseis, dtstrain):         234         234          13
+ 
+ Simulations:            3 MXZ_MYZ
+   source type:dipole     mtr       
+   source time function:gauss_0
+   simulation  type:moment          
+   magnitude:   1.00000002E+20
+   receivers:          25
+   source period:   50.0000000    
+   time steps:        2212
+   rotate recs?cyl
+   shift factor of stf:   78.0948257    
+   shift factor in samples (dt, dtseis, dtstrain):         234         234          13
+ 
+ Simulations:            4 MXY_MXX_M_MYY
+   source type:quadpole   mtp       
+   source time function:gauss_0
+   simulation  type:moment          
+   magnitude:   1.00000002E+20
+   receivers:          25
+   source period:   50.0000000    
+   time steps:        2212
+   rotate recs?cyl
+   shift factor of stf:   78.0948257    
+   shift factor in samples (dt, dtseis, dtstrain):         234         234          13
+ 
+ Opening forward file MZZ/Data/axisem_output.nc4
+ Opening forward file MXX_P_MYY/Data/axisem_output.nc4
+ Opening forward file MXZ_MYZ/Data/axisem_output.nc4
+ Opening forward file MXY_MXX_M_MYY/Data/axisem_output.nc4
+ receiver components: NEZ
+
+   reading CMTSOLUTION file....
+ Original moment tensor: (Mrr, Mtt, Mpp, Mrt, Mrp, Mtp)
+ 0.16660E+21-0.46000E+20-0.12060E+21 0.74300E+20 0.77700E+20-0.83600E+20
+ magnitudes of each run:
+   1.00000002E+20   1.00000002E+20   1.00000002E+20   1.00000002E+20
+ Mij scaled:
+ 0.16660E+01-0.46000E+00-0.12060E+01 0.74300E+00 0.77700E+00-0.83600E+00
+           1 Simulation is mrr, prefact:   1.66599989       0.00000000       1.66599989    
+ Mij phi prefactor:   1.66599989       0.00000000       1.66599989    
+ Mij scaled:
+ 0.16660E+01-0.46000E+00-0.12060E+01 0.74300E+00 0.77700E+00-0.83600E+00
+           2 Simulation is mpp, prefact:  -1.66599989       0.00000000      -1.66599989    
+ Mij phi prefactor:  -1.66599989       0.00000000      -1.66599989    
+ Mij scaled:
+ 0.16660E+01-0.46000E+00-0.12060E+01 0.74300E+00 0.77700E+00-0.83600E+00
+           3 Simulation is mtr, prefact:  0.402563304     -0.996855438      0.402563304    
+ Mij phi prefactor:  0.402563304     -0.996855438      0.402563304    
+ Mij scaled:
+ 0.16660E+01-0.46000E+00-0.12060E+01 0.74300E+00 0.77700E+00-0.83600E+00
+           4 Simulation is mtp, prefact:  0.760318875       1.66553760      0.760318875    
+ Mij phi prefactor:  0.850859940       1.66553760      0.850859940    
+ ishift1:   78.0948257       0.00000000      0.33373859524726868     
+ ishift:   233.99998339049770              233
+ ROTATIONS
+   45.589331851941232        236.07534426998370     
+   49.873984075793850        114.29091581071118     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.565022450451721        236.10116420571163     
+   49.873984075793850        114.33082111393551     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.537881404393104        236.12999549586982     
+   49.873984075793850        114.37536973141040     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.612655277705997        236.32377129643439     
+   50.029418534628491        114.40694038269550     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.599730738772216        236.33754581444123     
+   50.029418534628491        114.42812671821942     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.567300394367521        236.37206953587727     
+   50.029418534628491        114.48130140903004     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.593649745632376        236.48830781688568     
+   50.111409944527480        114.51955532434101     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.580545496837431        236.50229604391660     
+   50.111409944527480        114.54103308126142     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.557532920562245        236.52685315359312     
+   50.111409944527480        114.57874300996562     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.570578885077893        236.65733222684273     
+   50.193411068473026        114.63883410191931     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.552059055331739        236.67714888180319     
+   50.193411068473026        114.66916135524610     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.532917526606433        236.69762609192904     
+   50.193411068473026        114.70050858346055     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.582206598797356        236.91889264422798     
+   50.348845527307667        114.77440333556073     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.566139565804889        236.93614479089945     
+   50.348845527307667        114.80069925956957     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.543933255393291        236.95996363303823     
+   50.348845527307667        114.83702007961723     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.610785323745269        237.16246264740403     
+   50.504279986142308        114.88244296128155     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.590837529156367        237.18395011837097     
+   50.504279986142308        114.91507244364051     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.551019652350973        237.22680849174628     
+   50.504279986142308        114.98015655552052     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.570302034751244        237.35091515045957     
+   50.586276253064575        115.03033931999397     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.549339122297951        237.51854073771352     
+   50.668272519986843        115.14631532174553     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.574751068070803        237.76615178425405     
+   50.823706978821484        115.25995995232527     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.562525940488563        238.34588608231365     
+   51.143138828523931        115.59927159829078     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.597948211230424        238.58327795188436     
+   51.298573287358572        115.69732518415897     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.622889025745636        238.83230724922106     
+   51.454012603216491        115.81272805716412     
+  writing seismograms into joint directory: negative time
+ ROTATIONS
+   45.588350733239757        238.87028917122868     
+   51.454012603216491        115.86888496026538     
+  writing seismograms into joint directory: negative time
+ writing google earth kml file for plotting earthquake and receiver locations/seismograms...
+ Check it out: ./Data_Postprocessing/googleearth_src_rec_seis.kml
+ writing matlab input files for record sections...
+  DONE with seismogram post processing!

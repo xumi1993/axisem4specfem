@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://earth.google.com/kml/2.0"> 
+<Document> 
+
+   <name> earthquake-receiver configuration</name>
+     <LookAt>
+     <longitude>        158.75 </longitude><latitude>         51.36 </latitude>
+      <range>7000000</range><tilt>0</tilt><heading>0</heading>
+     </LookAt>
+
+ ......
+   <Placemark>
+      <Style id="earthquake">
+        <IconStyle>
+        <scale>5</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+              </Icon>
+            </IconStyle>
+                   <LabelStyle>
+                       <scale>5</scale>
+                  </LabelStyle>
+         </Style>
+     <name> earthquake</name>
+  <description> Event details:
+  colat,lon [deg]:         38.64        158.75
+ source depth [km]         45.90
+ Mrr=      1.67E+20
+ Mtt=     -4.60E+19
+ Mpp=     -1.21E+20
+ Mtr=      7.43E+19
+ Mpr=      7.77E+19
+ Mtp=     -8.36E+19
+source period [s]:         50.00
+ </description>
+   <Point><coordinates>        158.75,         51.36 </coordinates></Point>
+    </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A03_XZ_di        #    1</name>
+  <description> station  A03_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.59        236.08
+  <img src="GRAPHICS/A03_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A03_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A03_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.92,         44.41 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A04_XZ_di        #    2</name>
+  <description> station  A04_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.57        236.10
+  <img src="GRAPHICS/A04_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A04_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A04_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.90,         44.43 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A06_XZ_di        #    3</name>
+  <description> station  A06_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.54        236.13
+  <img src="GRAPHICS/A06_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A06_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A06_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.87,         44.46 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A07_XZ_di        #    4</name>
+  <description> station  A07_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.61        236.32
+  <img src="GRAPHICS/A07_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A07_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A07_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.68,         44.39 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A08_XZ_di        #    5</name>
+  <description> station  A08_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.60        236.34
+  <img src="GRAPHICS/A08_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A08_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A08_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.66,         44.40 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A10_XZ_di        #    6</name>
+  <description> station  A10_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.57        236.37
+  <img src="GRAPHICS/A10_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A10_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A10_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.63,         44.43 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A11_XZ_di        #    7</name>
+  <description> station  A11_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.59        236.49
+  <img src="GRAPHICS/A11_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A11_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A11_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.51,         44.41 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A12_XZ_di        #    8</name>
+  <description> station  A12_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.58        236.50
+  <img src="GRAPHICS/A12_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A12_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A12_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.50,         44.42 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A13_XZ_di        #    9</name>
+  <description> station  A13_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.56        236.53
+  <img src="GRAPHICS/A13_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A13_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A13_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.47,         44.44 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A15_XZ_di        #   10</name>
+  <description> station  A15_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.57        236.66
+  <img src="GRAPHICS/A15_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A15_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A15_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.34,         44.43 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A16_XZ_di        #   11</name>
+  <description> station  A16_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.55        236.68
+  <img src="GRAPHICS/A16_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A16_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A16_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.32,         44.45 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A17_XZ_di        #   12</name>
+  <description> station  A17_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.53        236.70
+  <img src="GRAPHICS/A17_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A17_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A17_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.30,         44.47 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A20_XZ_di        #   13</name>
+  <description> station  A20_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.58        236.92
+  <img src="GRAPHICS/A20_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A20_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A20_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.08,         44.42 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A21_XZ_di        #   14</name>
+  <description> station  A21_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.57        236.94
+  <img src="GRAPHICS/A21_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A21_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A21_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.06,         44.43 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A22_XZ_di        #   15</name>
+  <description> station  A22_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.54        236.96
+  <img src="GRAPHICS/A22_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A22_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A22_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -123.04,         44.46 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A24_XZ_di        #   16</name>
+  <description> station  A24_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.61        237.16
+  <img src="GRAPHICS/A24_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A24_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A24_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -122.84,         44.39 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A25_XZ_di        #   17</name>
+  <description> station  A25_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.59        237.18
+  <img src="GRAPHICS/A25_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A25_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A25_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -122.82,         44.41 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A27_XZ_di        #   18</name>
+  <description> station  A27_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.55        237.23
+  <img src="GRAPHICS/A27_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A27_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A27_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -122.77,         44.45 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A28_XZ_di        #   19</name>
+  <description> station  A28_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.57        237.35
+  <img src="GRAPHICS/A28_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A28_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A28_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -122.65,         44.43 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A30_XZ_di        #   20</name>
+  <description> station  A30_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.55        237.52
+  <img src="GRAPHICS/A30_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A30_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A30_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -122.48,         44.45 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A32_XZ_di        #   21</name>
+  <description> station  A32_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.57        237.77
+  <img src="GRAPHICS/A32_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A32_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A32_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -122.23,         44.43 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A38_XZ_di        #   22</name>
+  <description> station  A38_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.56        238.35
+  <img src="GRAPHICS/A38_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A38_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A38_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -121.65,         44.44 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A40_XZ_di        #   23</name>
+  <description> station  A40_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.60        238.58
+  <img src="GRAPHICS/A40_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A40_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A40_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -121.42,         44.40 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A42_XZ_di        #   24</name>
+  <description> station  A42_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.62        238.83
+  <img src="GRAPHICS/A42_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A42_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A42_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -121.17,         44.38 </coordinates></Point>
+  </Placemark>
+
+  <Placemark>
+      <Style id="cam">
+        <IconStyle>
+        <scale>2</scale>
+          <Icon>
+  <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+                   <LabelStyle>
+                       <scale>2</scale>
+                  </LabelStyle>
+      </Style>
+ <name>A43_XZ_di        #   25</name>
+  <description> station  A43_XZ_disp_post_mij_conv0000
+  colat,lon [deg]:         45.59        238.87
+  <img src="GRAPHICS/A43_XZ_disp_post_mij_conv0000_N.gif"></img>
+  <img src="GRAPHICS/A43_XZ_disp_post_mij_conv0000_Z.gif"></img>
+  <img src="GRAPHICS/A43_XZ_disp_post_mij_conv0000_E.gif"></img>
+   </description>
+   <Point><coordinates>       -121.13,         44.41 </coordinates></Point>
+  </Placemark>
+ ......
+
+ </Document>
+ </kml>

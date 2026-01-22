@@ -1,0 +1,16 @@
+GIT_VERSION
+xumijian USER_NAME
+ms.local HOST_NAME
+FFLAGS = -O3 -march=native -fexternal-blas
+CFLAGS = -O3 -march=native
+LDFLAGS = -O3 -march=native -lmkl_gf_lp64 -lmkl_core -lmkl_sequential
+xumijian USER_NAME
+ms.local HOST_NAME
+FFLAGS = -O3 -march=native -fexternal-blas
+CFLAGS = -O3 -march=native
+LDFLAGS = -O3 -march=native -lmkl_gf_lp64 -lmkl_core -lmkl_sequential
+xumijian USER_NAME
+ms.local HOST_NAME
+FFLAGS = -O3 -march=native -fexternal-blas
+CFLAGS = -O3 -march=native
+LDFLAGS = -O3 -march=native -lmkl_gf_lp64 -lmkl_core -lmkl_sequential
