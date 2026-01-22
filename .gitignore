@@ -2,8 +2,6 @@ build/
 
 bin/
 
-make_axisem.macros
-
 MESHER/Makefile
 
 MESHER/*.o
