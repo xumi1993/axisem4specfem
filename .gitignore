@@ -36,19 +36,9 @@ SOLVER/Makefile
 
 SOLVER/UTILS/Makefile
 
-MESHER/inparam_mesh
-
 MESHER/OUTPUT
 
-SOLVER/CMTSOLUTION
-
-SOLVER/inparam_advanced
-
-SOLVER/inparam_basic
-
-SOLVER/inparam_source
-
-SOLVER/STATIONS
+SOLVER/ak135_*/
 
 *.gcno
 *.gcda
