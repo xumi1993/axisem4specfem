@@ -40,6 +40,10 @@ MESHER/OUTPUT
 
 SOLVER/ak135_*/
 
+MESHER/Diags/*
+MESHER/meshdb.*
+MESHER/mesh_params.h
+
 *.gcno
 *.gcda
 __pycache__
