@@ -36,6 +36,10 @@ SOLVER/UTILS/Makefile
 
 MESHER/OUTPUT
 
+MESHER/Diags/*
+meshdb.*
+MESHER/mesh_params.h
+
 SOLVER/ak135_*/
 
 *.gcno
