@@ -11,6 +11,8 @@ option(INCLUDE_MPI "Include mpif.h" OFF)
 # Compiler flags
 set(CMAKE_Fortran_FLAGS_RELEASE "-O3 -march=native -fexternal-blas")
 set(CMAKE_C_FLAGS_RELEASE "-O3 -march=native")
+set(CMAKE_Fortran_FLAGS_DEBUG "-g -traceback")
+set(CMAKE_C_FLAGS_DEBUG "-g")
 
 if(SERIAL)
     add_compile_definitions(serial)

@@ -346,7 +346,7 @@ foreach isim (${srcapp})
             echo "#SBATCH --partition=compute"              >> sbatch.sh
             echo "#SBATCH --job-name axisem"                  >> sbatch.sh
                             
-            echo "module load gcc mkl  openmpi hdf5 netcdf"                        >> sbatch.sh
+            echo "module load axisem-intel"                        >> sbatch.sh
             
             echo 'echo "The current job ID is $SLURM_JOB_ID"'           >> sbatch.sh
             echo 'echo "Running on $SLURM_JOB_NUM_NODES nodes"'         >> sbatch.sh
